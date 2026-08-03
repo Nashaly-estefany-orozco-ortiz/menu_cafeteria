@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+python-multipart>=0.0.9
+pydantic>=2.6
+
+# Biometría / IA
+deepface>=0.0.93
+# Nota: DeepFace instala automáticamente tensorflow/caffe. Para usar Facenet se
+# requiere internet la primera vez (descarga los pesos del modelo).
